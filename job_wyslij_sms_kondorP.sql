@@ -1,0 +1,28 @@
+REM INSERTING into EXPORT_TABLE
+SET DEFINE OFF;
+Insert into EXPORT_TABLE ("Name","Value") values ('OWNER','RAPORTY_BPS');
+Insert into EXPORT_TABLE ("Name","Value") values ('JOB_NAME','WYSLIJ_SMS_PRZETW_KONDORP');
+Insert into EXPORT_TABLE ("Name","Value") values ('JOB_CLASS','DEFAULT_JOB_CLASS');
+Insert into EXPORT_TABLE ("Name","Value") values ('COMMENTS','Wysy³ka SMS o przetworzeniu EXT_KONDOR_P');
+Insert into EXPORT_TABLE ("Name","Value") values ('ENABLED','TRUE');
+Insert into EXPORT_TABLE ("Name","Value") values ('CREDENTIAL_NAME',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('DESTINATION',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('PROGRAM_NAME',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('JOB_TYPE','STORED_PROCEDURE');
+Insert into EXPORT_TABLE ("Name","Value") values ('JOB_ACTION','RAPORTY_BPS.WYSLIJ_POWIADOMIENIE_KONDOR_P.URUCHOM_WYSYLANIE_SMS');
+Insert into EXPORT_TABLE ("Name","Value") values ('NUMBER_OF_ARGUMENTS','0');
+Insert into EXPORT_TABLE ("Name","Value") values ('SCHEDULE_OWNER',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('SCHEDULE_NAME',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('SCHEDULE_TYPE','CALENDAR');
+Insert into EXPORT_TABLE ("Name","Value") values ('START_DATE','23/01/14 06:31:00,000000000 EUROPE/BELGRADE');
+Insert into EXPORT_TABLE ("Name","Value") values ('REPEAT_INTERVAL','FREQ=DAILY;INTERVAL=1');
+Insert into EXPORT_TABLE ("Name","Value") values ('END_DATE',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('EVENT_QUEUE_OWNER',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('EVENT_QUEUE_NAME',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('EVENT_QUEUE_AGENT',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('EVENT_CONDITION',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('FILE_WATCHER_OWNER',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('FILE_WATCHER_NAME',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('CONNECT_CREDENTIAL_OWNER',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('CONNECT_CREDENTIAL_NAME',null);
+Insert into EXPORT_TABLE ("Name","Value") values ('STORE_OUTPUT','FALSE');
