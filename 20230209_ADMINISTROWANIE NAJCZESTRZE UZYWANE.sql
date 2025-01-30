@@ -15,3 +15,5 @@ GRANT SELECT ON HURT.DEKRETY TO IPS_ETL --DODANIE UPRAWNIEN NA SELECT DO TABELI 
 grant SELECT on ext_visiona.cmg_krt_ods_20230131 to COGNOS with grant option; --DODANIE UPRAWNIEN NA SELECT DO TABELI DLA U¯YTKOWNIKA COGNOS z opcj¹ tworzenia widoku n apodstawie tej tabeli
 
 GRANT CREATE ANY DIRECTORY TO bborowik -- --DODANIE UPRAWNIEN do tworzenia scie¿ek
+
+grant 
