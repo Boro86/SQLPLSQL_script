@@ -16,4 +16,4 @@ grant SELECT on ext_visiona.cmg_krt_ods_20230131 to COGNOS with grant option; --
 
 GRANT CREATE ANY DIRECTORY TO bborowik -- --DODANIE UPRAWNIEN do tworzenia scie¿ek
 
-grant 
+grant select
